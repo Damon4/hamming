@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hamming</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+
+        .table {
+            display: none;
+            width: 300px;
+            margin-top: 20px;
+	        float: left;
+        }
+        #alpha {
+	        display: none;
+	        margin-top: 20px;
+	        float: left;
+	        margin-left: 45px;
+        }
+    </style>
+</head>
+<body>
+<input type="text" placeholder="Input source code" value="0011010111" maxlength="57" id="sourse_code">
+<br>
+<input type="submit" id="button" class="btn btn-primary"/>
+<div class="clearfix">
+	<table id="table" class="table table-bordered"></table>
+	<ul id="alpha"></ul>
+</div>
+
+</body>
+
+<script src="/js/table.js"></script>
+</html>

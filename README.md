@@ -1,4 +1,4 @@
-hamming
+Hamming's code
 =======
 
-hamming
+Automate create decision of Hamming's code
